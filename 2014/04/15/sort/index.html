@@ -11,7 +11,19 @@
 <meta name="og:image">
 <meta name="og:site_name" content="Hexo">
 <meta name="og:description" content="对sort传参最快捷
-var arr = [    {        id: 2,        name: ‘xx2’    },    {        id: 3,        name: ‘xx3’    },    {        id: 4,        name: ‘xx4’    },    {        id: 1,        name: ‘xx1’    }];">
+
+    var arr = [
+        {
+            id: 2,
+            name: 'xx2'
+        },
+        {
+            id: 3,
+            name: 'xx3'
+        },
+        {
+            id: 4,
+            nam">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -81,14 +93,35 @@ var arr = [    {        id: 2,        name: ‘xx2’    },    {        id: 3,  
     <div class="article-entry" itemprop="articleBody">
       
         <p>对sort传参最快捷</p>
-<p>var arr = [<br>    {<br>        id: 2,<br>        name: ‘xx2’<br>    },<br>    {<br>        id: 3,<br>        name: ‘xx3’<br>    },<br>    {<br>        id: 4,<br>        name: ‘xx4’<br>    },<br>    {<br>        id: 1,<br>        name: ‘xx1’<br>    }<br>];</p>
-<p>arr.sort(function (a, b) {<br>    return a.id - b.id;<br>});</p>
-<p>console.log();</p>
+<pre>
+    var arr = [
+        {
+            id: 2,
+            name: 'xx2'
+        },
+        {
+            id: 3,
+            name: 'xx3'
+        },
+        {
+            id: 4,
+            name: 'xx4'
+        },
+        {
+            id: 1,
+            name: 'xx1'
+        }
+    ];
 
+    arr.sort(function (a, b) {
+        return a.id - b.id;
+    });
+    console.log(arr);
+</pre>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://quyatong.github.io/2014/04/15/sort/" data-id="7xmj51hyfy1042h6" class="article-share-link">Share</a>
+      <a data-url="http://quyatong.github.io/2014/04/15/sort/" data-id="bietsrgpal9c0udk" class="article-share-link">Share</a>
       
       
     </footer>
